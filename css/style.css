@@ -57,7 +57,7 @@ section:hover {
 .front {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-2.jpg);
+    background-image: url(../images/car-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -187,7 +187,7 @@ section:hover {
 .front4 {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-4.jpg);
+    background-image: url(../images/car-4.jpg);
     background-position: center;
 }
 
@@ -230,7 +230,7 @@ section:hover {
 .front5 {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-5.jpg);
+    background-image: url(../images/car-5.jpg);
     background-position: center;
 }
 
@@ -273,7 +273,7 @@ section:hover {
 .front6 {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-6.jpg);
+    background-image: url(../images/car-6.jpg);
     background-position: center;
 }
 
@@ -316,7 +316,7 @@ section:hover {
 .front7 {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-7.jpg);
+    background-image: url(../images/car-7.jpg);
     background-position: center;
 }
 
@@ -359,7 +359,7 @@ section:hover {
 .front8 {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-8.jpg);
+    background-image: url(../images/car-8.jpg);
     background-position: center;
 }
 
