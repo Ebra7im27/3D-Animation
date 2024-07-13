@@ -1,0 +1,396 @@
+/* Global reset for margins, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* GROUPING */
+
+/* Set background image for the body */
+body {
+    background: url(../images/background-body.jpg);
+}
+
+/* Container width and centering */
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Absolute positioning for front and back sides */
+.front,
+.back {
+    position: absolute;
+}
+
+/* Section styling for 3D transformation */
+section {
+    position: relative;
+    transition: 3s;
+    transform-style: preserve-3d;
+}
+
+/* Set perspective for 3D effect */
+body {
+    perspective: 600px;
+}
+
+/* Dimensions for sections and front/back sides */
+section,
+.front,
+.back {
+    width: 270px;
+    height: 250px;
+}
+
+/* Rotate section on hover */
+section:hover {
+    transform: rotateY(180deg);
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 1 Styles */
+
+.front {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../Images/car-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Front side of section 1 */
+
+.back {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+/* Back side of section 1 */
+
+.sec-1 {
+    margin-left: 0;
+    animation: one 3s ease 1s 1 normal both running;
+}
+
+/* Animation for section 1 */
+
+@keyframes one {
+    from {}
+
+    to {
+        margin-left: 80%;
+    }
+}
+
+/* Keyframes for section 1 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 2 Styles */
+
+.front2 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../images/car-2.jpg);
+    background-position: center;
+}
+
+/* Front side of section 2 */
+
+.back2 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+/* Back side of section 2 */
+
+.sec-2 {
+    margin-left: 0;
+    animation: two 3s ease 4s 1 normal both running;
+}
+
+/* Animation for section 2 */
+
+@keyframes two {
+    from {
+        margin-left: 80%;
+    }
+
+    to {}
+}
+
+/* Keyframes for section 2 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 3 Styles */
+
+.front3 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../images/car-3.jpg);
+    background-position: center;
+}
+
+/* Front side of section 3 */
+
+.back3 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+/* Back side of section 3 */
+
+.sec-3 {
+    margin-left: 0;
+    animation: three 3s ease 7s 1 normal both running;
+}
+
+/* Animation for section 3 */
+
+@keyframes three {
+    from {}
+
+    to {
+        margin-left: 80%;
+    }
+}
+
+/* Keyframes for section 3 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 4 Styles */
+
+.front4 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../Images/car-4.jpg);
+    background-position: center;
+}
+
+/* Front side of section 4 */
+
+.back4 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+/* Back side of section 4 */
+
+.sec-4 {
+    margin-left: 0;
+    animation: four 3s ease 10s 1 normal both running;
+}
+
+/* Animation for section 4 */
+
+@keyframes four {
+    from {
+        margin-left: 80%;
+    }
+
+    to {}
+}
+
+/* Keyframes for section 4 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 5 Styles */
+
+.front5 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../Images/car-5.jpg);
+    background-position: center;
+}
+
+/* Front side of section 5 */
+
+.back5 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 13px;
+}
+
+/* Back side of section 5 */
+
+.sec-5 {
+    margin-left: 0;
+    animation: five 3s ease 13s 1 normal both running;
+}
+
+/* Animation for section 5 */
+
+@keyframes five {
+    from {}
+
+    to {
+        margin-left: 80%;
+    }
+}
+
+/* Keyframes for section 5 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 6 Styles */
+
+.front6 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../Images/car-6.jpg);
+    background-position: center;
+}
+
+/* Front side of section 6 */
+
+.back6 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+/* Back side of section 6 */
+
+.sec-6 {
+    margin-left: 0;
+    animation: six 3s ease 16s 1 normal both running;
+}
+
+/* Animation for section 6 */
+
+@keyframes six {
+    from {
+        margin-left: 80%;
+    }
+
+    to {}
+}
+
+/* Keyframes for section 6 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 7 Styles */
+
+.front7 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../Images/car-7.jpg);
+    background-position: center;
+}
+
+/* Front side of section 7 */
+
+.back7 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 35px;
+}
+
+/* Back side of section 7 */
+
+.sec-7 {
+    margin-left: 0;
+    animation: seven 3s ease 19s 1 normal both running;
+}
+
+/* Animation for section 7 */
+
+@keyframes seven {
+    from {}
+
+    to {
+        margin-left: 80%;
+    }
+}
+
+/* Keyframes for section 7 animation */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Section 8 Styles */
+
+.front8 {
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../Images/car-8.jpg);
+    background-position: center;
+}
+
+/* Front side of section 8 */
+
+.back8 {
+    background-color: rgb(197, 193, 193);
+    transform: rotateY(180deg);
+    font: bold 13px "Raleway", sans-serif;
+    line-height: 2;
+    white-space: 3;
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-top: 25px;
+}
+
+/* Back side of section 8 */
+
+.sec-8 {
+    margin-left: 0;
+    animation: eight 3s ease 22s 1 normal both running;
+}
+
+/* Animation for section 8 */
+
+@keyframes eight {
+    from {
+        margin-left: 80%;
+    }
+
+    to {}
+}
+
+/* Keyframes for section 8 animation */
