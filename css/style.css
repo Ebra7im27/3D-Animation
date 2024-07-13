@@ -57,7 +57,7 @@ section:hover {
 .front {
     z-index: 1;
     backface-visibility: hidden;
-    background-image: url(../Images/car-1.jpg);
+    background-image: url(../Images/car-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
